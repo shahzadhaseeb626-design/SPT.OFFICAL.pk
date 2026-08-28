@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://spt-smart-part-traders.netlify.app/sitemap.xml

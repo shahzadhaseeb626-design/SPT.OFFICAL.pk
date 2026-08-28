@@ -1,0 +1,16 @@
+SPT SMART PART TRADERS - MOBILE GITHUB APK BUILD
+
+1. Upload ALL files/folders inside this project to the ROOT of a GitHub repository.
+2. Make sure .github/workflows/build-apk.yml is included.
+3. Commit the files to the main branch.
+4. Open the repository > Actions.
+5. Open "Build APK".
+6. Tap "Run workflow" (or wait for the push build).
+7. Open the completed green workflow run.
+8. Scroll to Artifacts and download "SPT-Smart-Part-Traders-APK".
+9. Extract the downloaded artifact ZIP on your phone.
+10. Install app-debug.apk.
+
+NOTE:
+This APK packages the frontend website. The Node.js server.js backend is not executed inside the APK.
+If login/orders depend on server.js, the backend must be deployed separately and the frontend must use its live HTTPS API URL.

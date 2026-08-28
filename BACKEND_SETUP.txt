@@ -1,0 +1,22 @@
+
+SPT LOGIN + ORDER NOTIFICATIONS
+===============================
+
+Delivery message:
+- 1–3 days
+- Usually confirmed within 1–2 days
+
+Phone login:
+- Login UI is included.
+- Secure OTP sending/verification requires a server-side SMS/OTP provider.
+- Suggested backend endpoints:
+  POST /api/auth/send-otp
+  POST /api/auth/verify-otp
+
+Order notifications:
+- Destination 1: 03216006366
+- Destination 2: 03006006366
+- Automatic SMS/WhatsApp delivery requires a server-side provider/API.
+- Keep all API keys/secrets in server environment variables, never in index.html.
+
+The frontend is prepared for these backend integrations.
